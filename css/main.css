@@ -3,6 +3,10 @@
   --second: #20a3fa;
 }
 
+#reference a {
+  color: var(--second) !important;
+} 
+
 .bootstrap-switch {
   display: inline-block;
   direction: ltr;
@@ -26,14 +30,14 @@
   margin-right: 20px;
   background: rgba(44, 44, 44, 0.2); }
 
-.teste {
+.skills {
   padding: 50px;
   font-size: 32px;
   font-weight: bold;
   text-align: center;
-  background: #f1f1f1;
+  background: #fff;
   border-radius: 5px;
-  box-shadow: rgb(175, 174, 174) 1px 1px 5px 0.5px;
+  box-shadow: rgb(221, 218, 218) 1px 1px 5px 0.5px;
   margin-bottom: 10px;
 }
 
@@ -3433,7 +3437,10 @@ Created using IcoMoon - icomoon.io
   overflow: hidden;
   width: 100%;
   margin-bottom: 20px;
-  box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2); }
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: rgb(221, 218, 218) 1px 1px 5px 0.5px;
+}
   .card .card-body {
     min-height: 190px; }
   .card[data-background-color="orange"] {
